@@ -1,0 +1,43 @@
+.price::before{
+content: "Цена: ";
+color: gray;
+}
+
+.price::after{
+ content: "CZK";
+ color: gray
+
+}
+.price{
+    height: 25px;
+    width: 120px;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.price:hover{
+    border-color: red;
+    
+}
+.hero{
+    height: 50vh;
+    width: 80%;
+    background-color: rgb(241, 254, 120);
+    margin: 0 auto;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; */
+    
+} 
+
+.text{
+    font-size:  3rem;
+}
